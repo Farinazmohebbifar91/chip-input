@@ -5,10 +5,12 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatAutocompleteModule, MatCardModule, MatChipsModule, MatFormFieldModule, MatIconModule, MatInputModule } from '@angular/material';
+import { ChipsComponent } from './chips/chips.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChipsComponent
   ],
   imports: [
     BrowserModule,
